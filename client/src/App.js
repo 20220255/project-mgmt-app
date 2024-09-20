@@ -37,6 +37,10 @@ let client;
   //   uri: "http://localhost:5000/graphql",
   //   cache,
   // });
+  // client = new ApolloClient({
+  //   uri: "project-mgmt-app-production.up.railway.app/",
+  //   cache,
+  // });
 // }
 
 
