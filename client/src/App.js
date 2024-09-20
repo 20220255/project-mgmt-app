@@ -26,17 +26,17 @@ const cache = new InMemoryCache({
 
 let client;
 
-if (process.env.NODE_ENV === "production") {
+// if (process.env.NODE_ENV === "production") {
   client = new ApolloClient({
     uri: "https://project-mgmt-app-ajiz.onrender.com/graphql",
     cache,
   });  
-} else {
-  client = new ApolloClient({
-    uri: "http://localhost:5000/graphql",
-    cache,
-  });
-}
+// } else {
+//   client = new ApolloClient({
+//     uri: "http://localhost:5000/graphql",
+//     cache,
+//   });
+// }
 
 
 
