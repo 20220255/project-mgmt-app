@@ -28,7 +28,7 @@ let client;
 
 // if (process.env.NODE_ENV === "production") {
   client = new ApolloClient({
-    uri: "https://project-mgmt-app-ajiz.onrender.com/graphql",
+    uri: "https://project-mgmt-app-ajiz.onrender.com",
     cache,
   });  
 // } else {
